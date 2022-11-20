@@ -49,7 +49,9 @@ main{
     margin-top: 3em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
 }
+/* story */
 main .story{
     display: flex;
     flex-direction: column;
@@ -70,7 +72,7 @@ main .story{
 }
 .story-caption h1{
     width: 90%;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 .story-caption .read-card{
     display: flex;
@@ -91,4 +93,32 @@ main .story{
     width: fit-content;
     letter-spacing: 5px;
 }
+/* story end*/
+
+/* aside*/
+.aside{
+    background: var(--very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.1em 2em;
+}
+.aside h2{
+    color: #dfdf60;
+    font-size: 1.7rem;
+}
+.aside .new{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.aside h3{
+    color: #fff;
+}
+.aside p{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 15px;
+}
+/* aside end*/
 /* --------MAIN END-------- */
