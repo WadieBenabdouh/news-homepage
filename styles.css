@@ -155,3 +155,26 @@ main .story{
 }
 /* topics end */
 /* --------MAIN END-------- */
+
+/*----------- RESPONSIVE AREA -----------*/
+@media screen and (max-width:414px){
+    header{
+        flex-direction: column;
+        gap: 2em;
+    }
+    
+    main{
+        grid-template-columns: 1fr;
+    }
+    .aside{
+        grid-row-start: 2;
+    }
+    .story{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .topics{
+        flex-direction: column;
+    }
+}
