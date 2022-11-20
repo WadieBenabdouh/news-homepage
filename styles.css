@@ -75,7 +75,20 @@ main .story{
 .story-caption .read-card{
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
     width: 50%;
+}
+.read-card p{
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.read-card a{
+    text-decoration: none;
+    color: var(--off-white);
+    background-color: var(--soft-red);
+    padding: 0.8em 2em;
+    width: fit-content;
+    letter-spacing: 5px;
 }
 /* --------MAIN END-------- */
