@@ -113,7 +113,7 @@ main .story {
     letter-spacing: 5px;
 }
 
-.read-card a:hover{
+.read-card a:hover {
     background-color: var(--very-dark-blue);
 }
 
@@ -187,10 +187,11 @@ main .story {
 .topic-wrapper> :nth-child(2) {
     font-weight: bold;
 }
-.topic-wrapper> :nth-child(2):hover{
+
+.topic-wrapper> :nth-child(2):hover {
     color: var(--soft-red);
     cursor: pointer;
-} 
+}
 
 .topic-wrapper> :nth-child(3) {
     font-size: 15px;
@@ -262,7 +263,7 @@ main .story {
         width: 100%;
     }
 
-    
+
 
     .aside {
         grid-row-start: 2;
