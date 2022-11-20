@@ -49,7 +49,8 @@ main{
     margin-top: 3em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
+    column-gap: 1em;
+    row-gap: 5em;
 }
 /* story */
 main .story{
@@ -89,7 +90,7 @@ main .story{
     text-decoration: none;
     color: var(--off-white);
     background-color: var(--soft-red);
-    padding: 0.8em 2em;
+    padding: 0.8em 1em;
     width: fit-content;
     letter-spacing: 5px;
 }
@@ -127,6 +128,19 @@ main .story{
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
+}
+.topic-card{
+    display: flex;
+    gap: 1em;
+}
+.topic-img{
+    max-width: 7em;
+}
+.topic-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: space-between;
 }
 /* topics end */
 /* --------MAIN END-------- */
