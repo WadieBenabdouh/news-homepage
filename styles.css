@@ -156,6 +156,9 @@ main .story{
 /* topics end */
 /* --------MAIN END-------- */
 
+
+
+
 /*----------- RESPONSIVE AREA -----------*/
 @media screen and (max-width:414px){
     body{
@@ -169,6 +172,14 @@ main .story{
         flex-direction: column;
         gap: 2em;
     }
+    header .nav{
+        background-color: #3f3d3d;
+        padding: 1.2em 0;
+    }
+    .nav a{
+        color: #f5dd07;
+        opacity: 1;
+    }
     /* HEADER END */
 
     
@@ -180,6 +191,7 @@ main .story{
 
     .aside{
         grid-row-start: 2;
+        height: 30em;
     }
     .story{
         grid-column-start: 1;
@@ -203,5 +215,8 @@ main .story{
     }
     .topics{
         flex-direction: column;
+    }
+    .topic-wrapper{
+        justify-content: space-around;
     }
 }
