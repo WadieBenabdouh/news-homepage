@@ -20,9 +20,4 @@
 }
 
 /* ------HEADER------ */
-header{
-    display: flex;
-    outline: red solid 1px;
-    background-color: red;
-}
 /* ------HEADER------  END*/
