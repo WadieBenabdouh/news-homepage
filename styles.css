@@ -65,13 +65,11 @@ main .story{
     display: flex;
     align-items: center;
 }
-.story-caption h1{
-    width: 90%;
-}
 .story-caption .title{
     width: 50%;
 }
 .story-caption h1{
+    width: 90%;
     font-size: 2.5rem;
 }
 .story-caption .read-card{
