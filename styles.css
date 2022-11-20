@@ -121,4 +121,12 @@ main .story{
     font-size: 15px;
 }
 /* aside end*/
+
+/* topics */
+.topics{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+}
+/* topics end */
 /* --------MAIN END-------- */
