@@ -42,4 +42,25 @@ header .nav{
     opacity: 0.6;
     font-weight: bold;
 }
-/* ------HEADER------  END*/
+/* ------HEADER END------*/
+
+/* --------MAIN-------- */
+main{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main .story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.story .banner{
+    width: 100%;
+}
+.story-caption{
+    display: flex;
+}
+/* --------MAIN END-------- */
