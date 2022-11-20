@@ -62,5 +62,12 @@ main .story{
 }
 .story-caption{
     display: flex;
+    align-items: center;
+}
+.story-caption .read-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
 }
 /* --------MAIN END-------- */
